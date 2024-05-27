@@ -40,7 +40,7 @@ app.use('/calificaciones', calificacionRoutes);
 app.use('/asistencias', asistenciaRoutes);
 app.use('/actividades', actividadRoutes);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 ;
 
 // Sync database and start server

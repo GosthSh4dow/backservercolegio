@@ -1,0 +1,15 @@
+{
+    "version":2,
+    "build":[
+        {
+            "src":"api/index.js",
+            "use": "@versel/node"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"/api/index.js"
+        }
+    ]
+}
